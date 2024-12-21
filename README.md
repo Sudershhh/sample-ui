@@ -12,7 +12,7 @@ We've created a custom wrapper for Shoelace components. This wrapper acts like a
 2. **Consistency**: It ensures that all our developers use Shoelace components in the same way throughout the project.
 3. **Type Safety**: It helps catch potential errors early in the development process.
 
-## How This Fits into Our Next.js 14 MVP Architecture
+## How This Fits into Our Next.js 14 Architecture
 
 Next.js 14 is our foundation, providing features like server-side rendering for faster initial page loads and improved SEO. Our Shoelace integration works on top of this foundation:
 
