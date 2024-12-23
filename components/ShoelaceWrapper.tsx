@@ -1,5 +1,3 @@
-"use client";
-
 import dynamic from "next/dynamic";
 import { ComponentType } from "react";
 import * as ShoelaceComponents from "@shoelace-style/shoelace/dist/react";
@@ -16,7 +14,6 @@ export function createShoelaceWrapper<T extends ShoelaceComponentName>(
       ),
     {
       ssr: false,
-      loading: () => <span>Loading...</span>,
     }
   );
 }

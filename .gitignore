@@ -15,7 +15,7 @@
 
 # production
 /build
-public/shoelace-assets
+public/shoelace-assets/
 
 # misc
 .DS_Store
